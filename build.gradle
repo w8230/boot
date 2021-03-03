@@ -38,7 +38,7 @@ dependencies {
 
     // jstl + tiles
     compile group: 'org.apache.tiles', name: 'tiles-jsp', version: '3.0.7'
-    implementation group: 'javax.servlet.jsp.jstl', name: 'jstl', version: '1.2'
+    implementation group: 'javax.servlet.jsp.jstl', name: 'jstl-api', version: '1.2'
     implementation group: 'org.apache.taglibs', name: 'taglibs-standard-impl', version: '1.2.5'
 
     // lombok
